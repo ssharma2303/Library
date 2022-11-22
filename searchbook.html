@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript | Pagination</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="src.js"></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-default navbar-inverse navbar-fixed-top navbar-expand-sm"
+    >
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Library</a>
+        </div>
+        <ul class="nav navbar-nav ml-auto">
+          <li class="active nav-item">
+            <a href="searchbook.html"><button>Search a Book</button> </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="bookslist.html"><button>Books</button></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>
+            <input type="text" class="search-input" placeholder="Book Name" />
+          </th>
+          <th>
+            <input type="text" class="search-input" placeholder="Author" />
+          </th>
+          <th>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Publish-Date"
+            />
+          </th>
+          <th>
+            <input type="text" class="search-input" placeholder="Subject" />
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Adventures of Tom Sawyer</td>
+          <td>Mark Twain</td>
+          <td>2001</td>
+          <td>Adventure</td>
+        </tr>
+        <tr>
+          <td>Alice in Wonderland</td>
+          <td>Lewis Carrol</td>
+          <td>2002</td>
+          <td>Fiction</td>
+        </tr>
+        <tr>
+          <td>Arms and the Man</td>
+          <td>G.B.Shaw</td>
+          <td>2001</td>
+          <td>Humour</td>
+        </tr>
+        <tr>
+          <td>Pride and Prejudice</td>
+          <td>Jane Austen</td>
+          <td>1813</td>
+          <td>Fiction</td>
+        </tr>
+        <tr>
+          <td>Time Machine</td>
+          <td>H.G. Wells</td>
+          <td>2005</td>
+          <td>Fiction</td>
+        </tr>
+        <tr>
+          <td>Harry Potter Series</td>
+          <td>J.K. Rowling</td>
+          <td>1997</td>
+          <td>Fantasy</td>
+        </tr>
+        <tr>
+          <td>The Shiva Trilogy</td>
+          <td>Amish Tripathi</td>
+          <td>2011</td>
+          <td>Mythological Fiction</td>
+        </tr>
+        <tr>
+          <td>Born a Crime</td>
+          <td>Trevor Noah</td>
+          <td>2016</td>
+          <td>Memoir</td>
+        </tr>
+        <tr>
+          <td>Adventures Of Sherlock Holmes</td>
+          <td>Arthur Conan Doyle</td>
+          <td>1887</td>
+          <td>Crime and Mystery</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>
